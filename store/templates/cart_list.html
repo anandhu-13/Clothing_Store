@@ -28,7 +28,7 @@
                   <span>Price:{{bi.product_object.price}}</span> <br />
                   <span>Size:{{bi.size_object}}</span> <br />
 
-                  <a href="{%url 'basketitem-remove' bi.id%}">Remove</a>
+                  <a href="{%url 'basketitem-remove' bi.id%}" class="btn btn-outline-primary">Remove</a>
                   
                 </div>
               </div>
@@ -84,7 +84,7 @@
         </tr>
 
       </table>
-      <a href="{%url 'checkout'%}" class="checkout btn">Proceed To Checkout</a>
+      <a href="{%url 'checkout'%}" class="checkout btn btn-outline-dark">Proceed To Checkout</a>
     </div>
   </div>
 
